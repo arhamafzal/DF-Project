@@ -22,4 +22,4 @@ for data in cur:
         arr = str2[1]
         regex=re.compile(r"(%3C)*(%3E)")
         if(regex.search(arr)):
-            print("WARNING")    
+            print("\nWARNING")    
